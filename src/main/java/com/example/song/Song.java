@@ -1,4 +1,4 @@
-// Write your code here
+
 package com.example.song;
 
 class Song {

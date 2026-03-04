@@ -1,11 +1,3 @@
-/*
-
- * You can use the following import statements
-  
- * import org.springframework.http.HttpStatus;
- * import org.springframework.web.server.ResponseStatusException;
-
- */
 
 package com.example.song;
 
@@ -18,7 +10,7 @@ import com.example.song.SongRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
 
-// Don't modify the below code
+
 @Service
 public class SongService implements SongRepository {
     private static HashMap<Integer, Song> playlist = new HashMap<>();
@@ -33,7 +25,7 @@ public class SongService implements SongRepository {
 
     int uniqueId = 6;
 
-    // Don't modify the above code
+    
     @Override
     public List<Song> getPlayLists() {
         Collection<Song> colSongs = playlist.values();
